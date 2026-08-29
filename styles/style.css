@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9207b1;
+}
+
+.quicksettings{
+    display: flex;
+    position: fixed;
+    left: 0;
+}
+.header #icon{
+
+}
+.gamin
+{
+    background-color: rgba(67, 15, 179, 0.793);
+}
+
+
+
+body{background: url(../images/backgroundCloud.jpg) no-repeat center center fixed;)}
+.footer
+{
+    display: flex;
+    background-color: rgb(7 39 104 / 0.79);
+    text-align: center;
+    color: #0d72f6;
+}
