@@ -2,32 +2,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9207b1;
+    background-color: #3f0151;
+    color: aqua;
 }
 
 .quicksettings{
     display: flex;
     position: fixed;
     left: 0;
+    background-color: #641a7a;
 }
 .header #icon{
-    display: flex;
+    display: block;
     width:50px;
     height:50px;
 
 }
-.gamin
+
+#overview{
+
+}
+.gaming
 {
     background-color: rgba(67, 15, 179, 0.793);
+    overflow: auto;
 }
 
 
 
-body{background: url(../images/backgroundCloud.jpg) no-repeat center center fixed;)}
+body
+    {
+  /*  background-image: url("../images/backgroundCloud.jpg");*/
+    background-color: #24002c;
+    color: #2d77f4;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
 .footer
 {
+    position: ABSOLUTE;
+    down: 0px;
     display: flex;
-    background-color: rgb(7 39 104 / 0.79);
+    background-color: rgb(0 17 55 / 0.79);
     text-align: center;
-    color: #0d72f6;
+    color: #b405dc;
 }
