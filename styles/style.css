@@ -7,7 +7,6 @@
 }
 
 .quicksettings{
-    display: flex;
     position: fixed;
     left: 0;
     background-color: #641a7a;
@@ -22,19 +21,30 @@
 
 }
 
-#overview{
 
+.gamestable {
+    
+}
+
+
+#overview{
+    background-color: #3f0151;
+    text-align: center;
+}
+#overview h1{
+text-transform: uppercase;
 }
 
 
 main{
     margin-left: 180px;
 }
-.gaming
+.pages
 {
     background-color: rgba(67, 15, 179, 0.793);
     overflow: auto;
 }
+
 
 
 
@@ -55,7 +65,7 @@ body
     width: 100%;
     padding: 10px 0;
     display: flex;
-    background-color: rgb(0 17 55 / 0.79);
+    background-color: rgb(0 17 55);
     text-align: center;
     justify-content: center;
     color: #ffffff;
@@ -65,5 +75,14 @@ body
     height: 60px;
     z-index: 9999;
 }
-.footer a{color: #9302f6
+.footer a{color: #9302f6;
+
+
+
+}
+
+.footer p{color: #0a2f7f;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
 }
