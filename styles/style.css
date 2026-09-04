@@ -54,7 +54,9 @@ body
     padding: 0;
     height: 100%;
     flex-direction: column;
-  /*  background-image: url("../images/backgroundCloud.jpg");*/
+   /* background-image: url("../images/galaxy.jpg");
+    background-repeat: no-repeat;*/
+
     background-color: #24002c;
     color: #2d77f4;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,3 +88,4 @@ body
     text-align: center;
     bottom: 0;
 }
+
