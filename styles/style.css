@@ -34,7 +34,12 @@
 #overview h1{
 text-transform: uppercase;
 }
+.search-bar{}
 
+#search-icon{
+    width:10px;
+    height:10px;
+}
 
 main{
     margin-left: 180px;
@@ -88,4 +93,12 @@ body
     text-align: center;
     bottom: 0;
 }
+
+
+*{}
+h1{}
+h1{}
+h1{}
+h1{}
+p{}
 
