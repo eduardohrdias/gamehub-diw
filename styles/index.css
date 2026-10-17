@@ -1,0 +1,60 @@
+#overview{
+    background-color: #3f0150;
+    text-align: center;
+    border-radius: 30px;
+}
+#overview h1{
+    text-transform: uppercase;
+}
+
+.recent-games{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: #39137b;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.recent-games article{
+    background-color: #003e4f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recent-games article h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+.recent-games #recents, #news{
+    text-align: center;
+    text-transform: uppercase;
+    color: #76bdff;
+}
+
+.news{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: #39137b;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.news article{
+    background-color: #24002c;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.news article h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}

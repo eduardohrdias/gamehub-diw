@@ -8,5 +8,14 @@ text-transform: uppercase;
 #steam{}
 
 #epic{}
+.score{
+background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+
+padding: 10px;
+text-align: center;
+margin: 20px;}
 
 #metacritic{}

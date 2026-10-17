@@ -1,0 +1,21 @@
+.gamelist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+background-color: black;
+    border-radius: 10px;
+}
+.gamelist > article {
+
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.gamelist > article > h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}

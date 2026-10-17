@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>your profile</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/profile.css">
     <link rel="icon" type="image/png" href="../images/GamecloudTabIcon.png">
 </head>
 <body>
 
 <header class="header">
-    <img src="../images/GameCloudMainIcon.png" alt="icon" id="icon">
-    <h1 id="Header_name">GROUNDER</h1>
+    <section id="mark">
+        <img src="../images/GameCloudMainIcon.png" alt="icon" id="icon">
+        <h1 id="Header_name">GROUNDER</h1>
+    </section>
     <form class="search-bar" action="/search" method="get">
         <input type="search" name="query" id="search-input" placeholder="search here" autocomplete="off">
         <button type="submit" aria-label="Search">
@@ -22,31 +24,37 @@
 </header>
 
 <main>
-<h1> placeholder account name </h1>
+    <h1> placeholder account name </h1>
     <p> description</p>
-    <p> my reviews</p>
+    <img src="" alt="pfp" id="pfp">
+
+
+    <section class="games reviewed">
+    <h3> my reviews</h3>
+
+        <nav><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a></nav>
+    </section>
 
 
 <aside class = "quicksettings">
 
+
     <h4 >genres</h4>
-    <ul class="pages">
-
-        <li class="item">action</li>
-        <li class="item">puzzle</li>
-        <li class="item">narrative</li>
-        <li class="item">rpg</li>
-        <li class="item">sports</li>
-
-    </ul>
+    <nav class="genres">
+        <a href="">action</a>
+        <a href="">puzzle</a>
+        <a href="">narrative</a>
+        <a href="">rpg</a>
+        <a href="">sports</a>
+    </nav>
 
     <h4>pages</h4>
-    <ul class="pages">
+    <nav class="pages">
+        <a href="">developers</a>
+        <a href="">studios</a>
+        <a href="">games</a>
+    </nav>
 
-        <li id="dev">developers</li>
-        <li id="studios">studios</li>
-        <li id="games">games</li>
-    </ul>
 </aside>
 
 </main>

@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3f0151;
     color: aqua;
@@ -14,7 +14,11 @@
     width: 150px;
     height: calc(100% - 60px);
 }
-.header #icon{
+#mark{
+    
+}
+
+#mark #icon{
     display: block;
     width:50px;
     height:50px;
@@ -22,19 +26,12 @@
 }
 
 
-.gamestable {
-    
-}
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
-#overview{
-    background-color: #3f0151;
-    text-align: center;
 }
-#overview h1{
-text-transform: uppercase;
-}
-.search-bar{}
 
 #search-icon{
     width:10px;
@@ -44,10 +41,15 @@ text-transform: uppercase;
 main{
     margin-left: 180px;
 }
-.pages
+.pages , .genres
 {
     background-color: rgba(67, 15, 179, 0.793);
     overflow: auto;
+}
+
+
+.pages a, .genres a{
+    color: white;
 }
 
 
@@ -76,9 +78,8 @@ body
     text-align: center;
     justify-content: center;
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    left: 0;
     height: 60px;
     z-index: 9999;
 }
@@ -96,9 +97,40 @@ body
 
 
 *{}
-h1{}
-h1{}
-h1{}
-h1{}
-p{}
+h1{
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+
+}
+a{color: #0a2f7f;}
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+    color: #df71ff;
+}
+
+
+button{
+    background-color: #54285e;
+    color: #7cfffb;
+    border-radius: 10px;
+
+
+    outline: none;
+}
+nav{}
+
 
