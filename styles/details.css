@@ -1,21 +1,32 @@
-#title {
-text-transform: uppercase;
-}
-
-
-.score{}
-
 #steam{}
 
 #epic{}
+
 .score{
-background-color: white;
+    background-color: #39137a;
     color: black;
     font-weight: bold;
     border-radius: 5px;
-
-padding: 10px;
-text-align: center;
-margin: 20px;}
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
 
 #metacritic{}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #003e4e;
+}
+#resume{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #391379;
+    color: #84ffd5;
+    font-weight: bold;
+}
+#resume h{}

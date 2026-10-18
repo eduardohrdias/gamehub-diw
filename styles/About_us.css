@@ -1,0 +1,18 @@
+.project-description{
+    background-color: #39137a;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+}
+.project-members{
+    background-color: #391379;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+.developers {
+    background-color: lightgray;
+    border-radius: 15px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+.developers article {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.developers article img {
+
+
+
+}
