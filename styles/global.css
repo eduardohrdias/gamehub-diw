@@ -40,8 +40,17 @@ header > #mark > a {
     border: 1.5px solid #641a7a;
     border-radius: 24px;
     padding: 4px 8px 4px 16px;
-    width: 260px;                           
+    width: 260px;
 
+}
+
+#search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
 }
 
 #search-icon{

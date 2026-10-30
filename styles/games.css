@@ -5,7 +5,7 @@
 background-color: #391379;
     border-radius: 10px;
 }
-.gamelist > article {
+.IDgameitems{
 
     background-color: #003e4e;
     border-radius: 10px;
@@ -18,15 +18,20 @@ background-color: #391379;
     margin: 10px;
     text-align: center;
 }
-.gamelist > article > h4 {
+.IDgameitems > h4 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
 
 }
-.gamelist > article > p {
+.IDgameitems > a {
+    text-decoration: none;
+    color: white;
+}
+.IDgameitems > a > p {
     opacity: 0;
     visibility: hidden;
+
     transform: translateY(10px);
     display: flex;
     align-items: center;
@@ -35,7 +40,7 @@ background-color: #391379;
     box-sizing: border-box;
     border-radius: 18px;
 }
-.gamelist > article:hover > p {
+.IDgameitems:hover> a > p {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
