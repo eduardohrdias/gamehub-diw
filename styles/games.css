@@ -1,7 +1,7 @@
 .gamelist {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 background-color: #391379;
     border-radius: 10px;
 }
@@ -9,6 +9,11 @@ background-color: #391379;
 
     background-color: #003e4e;
     border-radius: 10px;
+    border: 3px solid white;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    overflow: hidden;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -18,4 +23,20 @@ background-color: #391379;
     text-align: center;
     font-weight: bold;
 
+}
+.gamelist > article > p {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.gamelist > article:hover > p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }

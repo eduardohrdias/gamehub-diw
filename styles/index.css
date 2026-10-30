@@ -9,8 +9,8 @@
 
 .recent-games{
     display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-column:2;
+    grid-row:2/4;
     background-color: #39137b;
     border-radius: 15px;
     margin-bottom: 10px;
