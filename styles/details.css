@@ -1,32 +1,94 @@
-#steam{}
-
-#epic{}
-
 .score{
     background-color: #39137a;
-    color: black;
+    color: #ffffff;
     font-weight: bold;
     border-radius: 5px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
     text-align: center;
     margin: 20px;
 }
-
-#metacritic{}
-
+#steam{
+    background-color: #1b2838;
+}
+#epic{
+    background-color: black;
+}
+#metacritic{
+    background-color: orange}
 article{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     background-color: #003e4e;
 }
+
+
 #resume{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+    display: grid;
+
+    grid-template-columns: 1fr 220px;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "name  image"
+        "desc  image";
+
+    padding: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #391379;
+    border: 2px solid #001137;
+    border-radius: 28px;
     color: #84ffd5;
-    font-weight: bold;
+    box-sizing: border-box;
 }
-#resume h{}
+#name{
+    grid-area: name;
+
+    margin: 0;
+    padding: 12px 20px;
+    border: 2px solid #c000ff;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #b071ff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+#description{
+
+    grid-area: desc;
+
+
+    margin: 0;
+    padding: 12px 20px;
+    border: 2px solid #af70fd;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #d4aeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img-area{
+    grid-area: image;
+
+    border: 2px solid #ae6ffb;
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    min-height: 240px;
+}
+#image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}

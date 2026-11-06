@@ -3,14 +3,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #3f0151;
-
-
 }
 header > #mark > a {
     text-decoration: none;
     color:white;
 }
-
 #mark{
 
     display: flex;
@@ -43,7 +40,6 @@ header > #mark > a {
     width: 260px;
 
 }
-
 #search-input {
     background: transparent;
     border: none;
@@ -52,11 +48,12 @@ header > #mark > a {
     font-size: 0.9rem;
     width: 100%;
 }
-
 #search-icon{
     width:20px;
     height:20px;
 }
+
+
 
 main{
     margin-left: 180px;
@@ -65,19 +62,32 @@ main{
 {
     background-color: rgba(67, 15, 179, 0.793);
     overflow: auto;
-    display: flex;             /* Turns the container into a flexbox */
-    flex-direction: column;    /* Stacks links one on top of the other */
+    display: flex;
+    flex-direction: column;
     padding: 8px 0;
 }
+.active {
+    background-color: rgb(196 0 255);
+    color: white;
 
-
+}
 .pages a, .genres a{
     color: white;
-    display: block;            /* Ensures full clickable width */
-    padding: 8px 12px;         /* Adds tap/click area around each link */
-    text-decoration: none;     /* Removes default underline */
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
 }
+.pages a:hover, .genres a:hover{
+    color: #4986d9;
+    background-color: #82289f;
+    text-decoration: none;
 
+}
+.pages a:active, .genres a:active{
+    color: purple;
+    background-color: white;
+    text-decoration: none;
+}
 
 body
     {
@@ -89,7 +99,7 @@ body
     background-repeat: no-repeat;*/
 
     background-color: #24002c;
-    color: #2d77f4;
+    color: #c6faff;
     font-family: Arial, Helvetica, sans-serif;
     }
 

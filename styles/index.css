@@ -11,12 +11,12 @@
     display: grid;
     grid-column:2;
     grid-row:2/4;
-    background-color: #39137b;
+    background-color: #33087b;
     border-radius: 15px;
     margin-bottom: 10px;
 }
 .recent-games article{
-    background-color: #003e4f;
+    background-color: #00184f;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -40,13 +40,13 @@
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows:1fr 1fr;
-    background-color: #39137b;
+    background-color: #0f6a6c;
     border-radius: 15px;
     text-align: center;
 
 }
 .news article{
-    background-color: #24002c;
+    background-color: #084157;
     border-radius: 10px;
     text-align: center;
     color: white;

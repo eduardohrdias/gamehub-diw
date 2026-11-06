@@ -1,23 +1,56 @@
 .developers {
-    background-color: lightgray;
-    border-radius: 15px;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
-    padding: 10px;
-
-
-
-}
-.developers article {
-    text-align: center;
-    background-color: black;
-    padding: 10px;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #5619bc;
     border-radius: 10px;
+}
+.developer {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid white;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.developer p {
 
 }
-.developers article img {
+
+.developer >  a > h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.developer > a  {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.developer > a >p {
+    opacity:0;
+    visibility: hidden;
+    transform:translateY(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.developer:hover > a >p {
+    opacity:1;
+    visibility: visible;
+    transform:translateY(0);
+}
+.developer img {
 
 
 

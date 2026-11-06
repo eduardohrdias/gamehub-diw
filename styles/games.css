@@ -18,12 +18,7 @@ background-color: #391379;
     margin: 10px;
     text-align: center;
 }
-.IDgameitems > h4 {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
 
-}
 .IDgameitems > a {
     text-decoration: none;
     color: white;

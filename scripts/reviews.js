@@ -1,0 +1,3 @@
+function addReview() {}
+
+function loadReviews() {}
